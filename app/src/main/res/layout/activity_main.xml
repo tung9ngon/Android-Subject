@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên môn học" />
+
+    <EditText
+        android:id="@+id/editTextSoTinChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tín chỉ"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+
+    <ListView
+        android:id="@+id/listViewMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
